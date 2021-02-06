@@ -26,7 +26,7 @@ def detect(save_img=False):
 
     # oupf 
     oup=open("./output.txt","a")
-    
+    print("\n\n", source, "=>",save_dir,file=oup)
     # Initialize
     set_logging()
     device = select_device(opt.device)
